@@ -1,0 +1,53 @@
+.home-page {
+  width: 100%;
+}
+
+.order-options {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.order-label {
+  margin-right: 0.75rem;
+  color: var(--secondary-text);
+}
+
+.order-button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.order-button.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.order-button:not(.active):hover {
+  background-color: rgba(0, 191, 165, 0.1);
+}
+
+.search-results {
+  margin-bottom: 1.5rem;
+  color: var(--secondary-text);
+  font-style: italic;
+}
+
+.loading,
+.no-posts {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--card-color);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.loading p,
+.no-posts p {
+  color: var(--secondary-text);
+}

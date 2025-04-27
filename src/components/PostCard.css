@@ -1,0 +1,37 @@
+.post-card {
+  background-color: var(--card-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+}
+
+.post-time {
+  color: var(--secondary-text);
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.post-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.post-title a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  color: var(--primary-color);
+}
+
+.post-upvotes {
+  color: var(--secondary-text);
+  font-size: 0.9rem;
+}

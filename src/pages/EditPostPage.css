@@ -1,0 +1,9 @@
+.edit-post-page {
+  width: 100%;
+}
+
+.page-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: var(--text-color);
+}

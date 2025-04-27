@@ -1,0 +1,100 @@
+.post-detail {
+  background-color: var(--card-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.post-time {
+  color: var(--secondary-text);
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.post-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: var(--text-color);
+}
+
+.post-content {
+  margin-bottom: 2rem;
+}
+
+.post-content p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.post-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 1.5rem;
+}
+
+.upvote-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--text-color);
+  padding: 0.5rem 0;
+}
+
+.upvote-icon {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.edit-button,
+.delete-button {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: var(--secondary-text);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.edit-button:hover {
+  color: var(--primary-color);
+}
+
+.delete-button:hover {
+  color: #e74c3c;
+}
+
+.loading,
+.not-found {
+  background-color: var(--card-color);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
